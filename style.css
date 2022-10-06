@@ -1,0 +1,190 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #1d1d1d;
+}
+.web-banner {
+  font-size: 55px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  line-height: 1;
+}
+.bg img{
+    width: 100%;
+}
+.mission-1 p{
+    font-size: 55px;
+    line-height: 1;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.mission-2 p{
+    font-size: 18px;
+    list-style: 1;
+    font-family: 'Courier New', Courier, monospace;
+}
+.service p{
+    margin-top: 50px;
+}
+.hr-1{
+    border-top: 1px solid white;
+    margin-top: 50px;
+}
+.about img{
+    width: 100%;
+    height: 80%;
+    object-fit: cover;
+}
+.about h1{
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.about p{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    line-height: 1;
+}
+.blog h2{
+    font-size: 14px;
+}
+.blog p{
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.blog a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.recent-work h1{
+    font-size: 45px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.recent-work p a{
+    text-decoration: none;
+}
+.canza h1{
+    font-size: 60px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.canza p{
+    font-size: 18px;
+    font-family: 'Courier New', Courier, monospace;
+    margin-top: 15px;
+    line-height: 1;
+}
+.canza p a{
+    text-decoration: none;
+}
+.finance-list ul{
+    list-style: none;
+}
+.finance-list ul li{
+    margin-top: 20px;
+}
+.connect h1{
+  font-size: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.connect p{
+  font-size: 50px;
+  font-family: 'Courier New', Courier, monospace;
+}
+.foot-box p{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 18px;
+}
+.foot-box input{
+  margin-top: 20px;
+  width: 60%;
+  height: 40px;
+  background: transparent;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.foot-box input::placeholder{
+  color: white;
+}
+:placeholder-shown{
+  padding-left: 10px;
+}
+.foot-box button{
+  width: 20%;
+  height: 40px;
+  background: #1111113b;
+  border-radius: 5px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  transition: all 2s ease-in-out 0.2s;
+}
+.foot-box button:hover{
+  background: dodgerblue;
+}
+.footer-list{
+  list-style: none;
+}
+.footer-list li a{
+  text-decoration: none;
+  margin-right: 30px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 992px) {
+  .web-banner,
+  .mission-1 p{
+    font-size: 50px;
+  }
+  #about_1{
+    text-align: center;
+  }
+  .about{
+    text-align: center;
+  }
+  .about img{
+    height: 80%;
+    width: 70%;
+    object-fit:fill;
+    margin: auto;
+  }
+  .canza h1{
+    font-size: 50px;
+}
+}
+@media (max-width: 768px) {
+  .web-banner,
+  .mission-2 p{
+    font-size: 40px;
+  }
+  .mission-2 p{
+    font-size: 16px;
+  }
+.blog p{
+    font-size: 22px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.recent-work h1{
+    font-size: 35px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.connect p{
+  font-size: 35px;
+  line-height: 1;
+}
+.footer-list{
+  flex-wrap: wrap;
+}
+}
+@media (max-width:360px){
+.web-banner{
+    font-size: 30px;
+  }
+.mission-1 p{
+    font-size: 35px;
+  }
+.service p{
+    margin-top: 40px;
+}
+.about p{
+  text-align: left;
+}
+}
